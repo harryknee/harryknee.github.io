@@ -68,6 +68,8 @@
   --light-gray: hsl(0, 0%, 84%);
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
   --bittersweet-shimmer: hsl(0, 43%, 51%);
+	--burly-wood: hsl(34, 57%, 70%);
+  /* equivalently using rgb --burly-wood: rgb(222, 184, 135); */
 
   /**
    * typography
@@ -155,7 +157,7 @@ input, textarea {
 
 html { font-family: var(--ff-poppins); }
 
-body { background: var(--smoky-black); }
+body { background: var(--burly-wood); }
 
 
 
@@ -167,7 +169,7 @@ body { background: var(--smoky-black); }
 
 .sidebar,
 article {
-  background: var(--eerie-black-2);
+  background: var(--jet);
   border: 1px solid var(--jet);
   border-radius: 20px;
   padding: 15px;
@@ -223,7 +225,8 @@ article.active {
 .h2,
 .h3,
 .h4,
-.h5 {
+.h5,
+.h6 {
   color: var(--white-2);
   text-transform: capitalize;
 }
