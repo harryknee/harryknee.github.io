@@ -1,5 +1,5 @@
-title: PaperModX Example Site
-baseURL: "https://reorx.github.io/papermodx-example/"
+title: Harry's Blog
+baseURL: "https://harryknee.github.io/"
 theme: PaperModX
 
 enableRobotsTXT: true
@@ -52,19 +52,22 @@ params:
       username: novoreorx
 
   homeInfoParams:
-    Title: "PaperModX"
+    Title: "Hi there, this is Harry."
     Content: |
-      Welcome to demo of hugo's theme PaperModX.
+      I am currently a final-year student at Imperial College London. 
+      I am passionate about generative models and its applications.
 
-      - **PaperModX** is a simple but fast and responsive theme with useful feature-set that enhances UX.
+      Aside of my interest in technology, I am a classical music enthusiast and my all-time favourite composer is Robert Schumann. (Though, of course I also appreciate the greatests Bach, Beethoven, Brahms, Chopin...) As an amateur instrumentist, I enjoy playing both the piano and trombone, so that it keeps me occupied outside work.
 
-      - PaperModX is based on theme [PaperMod](https://github.com/adityatelange/hugo-PaperMod).
+    # - **PaperModX** is a simple but fast and responsive theme with useful feature-set that enhances UX.
 
-      To get started, please head to the [Docs](docs).
+    # - PaperModX is based on theme [PaperMod](https://github.com/adityatelange/hugo-PaperMod).
 
-      To see examples of different contents, head to [examples tag](tags/example).
+    # To get started, please head to the [Docs](docs).
 
-  #commentSystems:
+    # To see examples of different contents, head to [examples tag](tags/example).
+
+  # commentSystems:
   #  disqus:
   #    shortname: reorx
   #  remark42:
@@ -74,7 +77,7 @@ params:
   #    channel: reorx_share
   #    accentColor: "9077e1"
   #    limit: 20
-  #defaultCommentSystems:
+  # defaultCommentSystems:
   #  remark42: true
 
 permalinks:
@@ -88,18 +91,23 @@ outputFormats:
 
 menu:
   main:
+    # - name: Home
+    #     url: baseURL
     - name: Posts
       url: /posts/
       weight: 1
-    - name: Notes
-      url: /notes/
-      weight: 2
-    - name: Newsletter
-      url: /newsletter/
-      weight: 3
+    # - name: Notes
+    #   url: /notes/
+    #   weight: 2
+    # - name: Newsletter
+    #   url: /newsletter/
+    #   weight: 3
     - name: Archives
       url: /archives/
       weight: 4
+    - name: Search
+      url: /search
+      weight: 5
 
 languages:
   en:
@@ -113,3 +121,9 @@ markup:
     style: dracula
     lineNos: false
     noClasses: false
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
