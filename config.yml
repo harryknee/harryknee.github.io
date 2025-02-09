@@ -92,22 +92,26 @@ outputFormats:
 menu:
   main:
     # - name: Home
-    #     url: baseURL
-    - name: Posts
+    #   url: /
+    #   weight: 1
+    - name: / Posts
       url: /posts/
-      weight: 1
-    # - name: Notes
-    #   url: /notes/
-    #   weight: 2
+      weight: 2
+    - name: / Notes
+      url: /notes/
+      weight: 3
     # - name: Newsletter
     #   url: /newsletter/
-    #   weight: 3
-    - name: Archives
+    #   weight: 4
+    - name: / Archives
       url: /archives/
       weight: 4
-    - name: Search
-      url: /search
+    - name: / Tags
+      url: /tags/
       weight: 5
+    - name: / Search
+      url: /search
+      weight: 6
 
 languages:
   en:
