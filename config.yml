@@ -11,6 +11,9 @@ params:
   images:
     - cover.png
   favicon: favicon.ico
+
+  math: true
+
   #logo:
   #  icon: images/logo.svg
   DateFormat: "2006-01-02"
@@ -97,8 +100,8 @@ menu:
     - name: / Posts
       url: /posts/
       weight: 2
-    - name: / Notes
-      url: /notes/
+    - name: / Random
+      url: /random/
       weight: 3
     # - name: Newsletter
     #   url: /newsletter/
@@ -121,6 +124,18 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+    extensions:
+      passthrough:
+        delimiters:
+          block:
+          - - \[
+            - \]
+          - - $$
+            - $$
+          inline:
+          - - \(
+            - \)
+        enable: true
   highlight:
     style: dracula
     lineNos: false

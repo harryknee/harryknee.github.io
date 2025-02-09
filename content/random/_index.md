@@ -1,6 +1,6 @@
 ---
-title: Notes
-description: you can put some notes from your note-taking system here
+title: Random
+description: Just a collection of my random thoughts.
 archivesSlug: archives
 type: essays
 cascade:

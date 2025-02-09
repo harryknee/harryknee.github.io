@@ -1,5 +1,5 @@
 ---
-title: "Notes Archives"
+title: "Random Archives"
 layout: archives
 hidden: true
 ---
