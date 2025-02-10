@@ -6,8 +6,8 @@ enableRobotsTXT: true
 enableEmoji: true
 
 params:
-  description: "PaperModX Example Site description"
-  author: Reorx
+  description: "Hello there :)"
+  author: Harry
   images:
     - cover.png
   favicon: favicon.ico
@@ -40,19 +40,19 @@ params:
 
   socialIcons:
     - name: github-simple
-      url: "https://github.com/reorx"
+      url: "https://github.com/harryknee"
     - name: twitter-simple
-      url: "https://twitter.com/novoreorx"
-    - name: telegram-simple
-      url: "https://t.me/reorx_share"
+      url: "https://twitter.com/HarryKnee4"
+    # - name: telegram-simple
+    #   url: "https://t.me/reorx_share"
     - name: rss-simple
       url: "feed.xml"
-    - name: gmail
-      url: email
+    # - name: gmail
+    #   url: email
 
   socialAccounts:
     twitter:
-      username: novoreorx
+      username: HarryKnee4
 
   homeInfoParams:
     Title: "Hi there, this is Harry."
